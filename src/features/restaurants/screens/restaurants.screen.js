@@ -40,7 +40,6 @@ export const RestaurantsScreen = ({ navigation }) => {
         <RestaurantList
           data={restaurants}
           renderItem={({ item }) => {
-            console.log(item);
             return (
               <TouchableOpacity
                 onPress={() =>
