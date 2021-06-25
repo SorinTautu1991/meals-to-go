@@ -3,7 +3,7 @@ import { View, FlatList, TouchableOpacity } from "react-native";
 
 import { RestaurantInfoCard } from "../components/restaurant-info-card.comp";
 import styled from "styled-components/native";
-import { Spacer } from "../../../components/spacer/spacer.component.js";
+import { Spacer } from "../../../components/spacer/spacer-component";
 import { SafeArea } from "../../../components/utility/safe-area.comp";
 import { RestaurantsContext } from "../../../services/restaurants/mock/restaurants-context";
 import { FavouritesContext } from "../../../services/favourites/favourites-context";

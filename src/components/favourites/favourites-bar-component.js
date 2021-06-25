@@ -2,7 +2,7 @@ import React from "react";
 import { ScrollView, TouchableOpacity } from "react-native";
 import styled from "styled-components/native";
 import { CompactRestaurantInfo } from "../restaurant/compact-restaurant-info-component";
-import { Spacer } from "../spacer/spacer.component.js";
+import { Spacer } from "../spacer/spacer-component";
 import { Text } from "../typography/text.comp";
 
 const FavouritesWrapper = styled.View`
